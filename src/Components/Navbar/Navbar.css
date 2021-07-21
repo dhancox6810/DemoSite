@@ -1,0 +1,25 @@
+.NavbarItems {
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 30px;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
+    margin: left;
+}
+.rectangle {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background: #3a3a3a;
+  }
